@@ -1,0 +1,58 @@
+html {
+  background: black;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  color: red;
+  margin: 2rem auto;
+  font: georgia;
+  font-size: 3rem;
+}
+
+.heading:hover {
+  transform: rotate(-3deg);
+}
+
+.btn {
+  display: flex;
+  background-color: black;
+  flex-direction: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid pink;
+}
+
+image {
+  width: 3rem;
+  height: 3rem;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  background-color: blueviolet;
+}
+
+.result {
+  justify-content: space-between;
+  margin: 3rem;
+  font-size: 1.5rem;
+  color: white;
+  font-style: italic;
+}
+
+.verdict {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  font-size: 3rem;
+  color: pink;
+  font-style: italic;
+}

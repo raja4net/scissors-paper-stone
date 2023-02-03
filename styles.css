@@ -4,6 +4,7 @@ html {
 .row {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .heading {
   display: flex;
@@ -12,6 +13,7 @@ html {
   margin: 2rem auto;
   font: georgia;
   font-size: 3rem;
+  font-family: cursive;
 }
 
 .heading:hover {
@@ -24,15 +26,27 @@ html {
   flex-direction: space-between;
   align-items: center;
   color: white;
-  padding: 1rem;
-  margin: 1rem;
+  margin: 2rem;
   font-size: 1.5rem;
   border: 1px solid pink;
 }
 
-image {
-  width: 3rem;
-  height: 3rem;
+button {
+  padding: 0;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.selection {
+  margin-right: 1rem;
+}
+
+#computerImage,
+#userImage {
+  display: none;
 }
 
 .btn:hover {
@@ -42,17 +56,41 @@ image {
 
 .result {
   justify-content: space-between;
-  margin: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
   font-size: 1.5rem;
   color: white;
   font-style: italic;
+  align-items: center;
 }
 
-.verdict {
+.ends {
+  display: flex;
+  justify-content: space-between;
+}
+
+#verdict {
   display: flex;
   justify-content: center;
   margin: 3rem;
   font-size: 3rem;
   color: pink;
   font-style: italic;
+}
+
+.play-again {
+  display: none;
+}
+#play-again {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 1rem;
+  color: purple;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+#play-again:hover {
+  background-color: green;
 }
